@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MenuPizza</string>
+    <string name="textView3">Pizza Recipes</string>
+    <string name="textView4">Make your Pizza</string>
+    <string name="text">Pizza recipses</string>
+    <string name="descrip">Description</string>
+    <string name="ingr">Ingredients</string>
+    <string name="back">Back</string>
+</resources>

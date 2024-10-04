@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Second"
+    android:orientation="vertical">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/back">
+        <LinearLayout
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+            <Button
+                android:id="@+id/back"
+                android:layout_width="95dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/white"
+                android:textColor="#CD0B0B"
+                android:text="@string/back"
+                android:textSize="20sp"
+               />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="250dp"
+                android:layout_height="45sp"
+                android:fontFamily="cursive"
+                android:text="@string/text"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:layout_marginLeft="30dp"
+
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_marginStart="75dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/share"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <com.google.android.material.imageview.ShapeableImageView
+
+                android:id="@+id/image"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                app:shapeAppearanceOverlay="@style/roundedimage"
+                android:layout_marginLeft="5dp"
+                tools:srcCompat="@tools:sample/avatars"
+                android:scaleType="fitXY"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+
+                />
+
+
+
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="27dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:fontFamily="cursive"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textStyle="italic"/>
+
+
+    <TextView
+        android:id="@+id/descrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descrip"
+        android:textSize="35sp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+         />
+
+
+    <TextView
+        android:id="@+id/ingr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ingr"
+        android:textSize="35sp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30sp"
+         />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/ingredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginLeft="20dp"
+        android:textSize="17sp"
+        />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
