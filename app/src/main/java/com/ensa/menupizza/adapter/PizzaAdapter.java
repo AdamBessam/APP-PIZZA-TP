@@ -46,8 +46,8 @@ public class PizzaAdapter extends BaseAdapter {
         TextView nbrIngredient=convertView.findViewById(R.id.nbrIngredient);
         ImageView image=convertView.findViewById(R.id.image);
         TextView id=convertView.findViewById(R.id.idd);
-        id.setText(produits.get(position).getId()+"");
 
+        id.setText(produits.get(position).getId()+"");
         nom.setText(produits.get(position).getNom());
         time.setText(produits.get(position).getDuree()+"");
         nbrIngredient.setText(produits.get(position).getNbrIngredients()+"");

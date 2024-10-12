@@ -33,7 +33,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run(){
                 try{
-                sleep(2000);
+                    sleep(2000);
                     Intent intent=new Intent(SplashActivity.this, ListPizzaActivity.class);
                     startActivity(intent);
                     SplashActivity.this.finish();

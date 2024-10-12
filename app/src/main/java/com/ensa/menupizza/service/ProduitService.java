@@ -32,7 +32,7 @@ public class ProduitService implements iDao<Produit>{
         return false;
     }
     public List<Produit> findall(){
-        return new ArrayList<>(produits);
+        return produits;
     }
     public Produit findByid(int id){
         for(Produit produit:produits){

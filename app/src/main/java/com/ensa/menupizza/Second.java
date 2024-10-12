@@ -41,6 +41,7 @@ public class Second extends AppCompatActivity {
             List<Produit> listePizza = (List<Produit>) intent.getSerializableExtra("listePizza");
 
 
+
             if (listePizza != null) {
 
                 ProduitService produitService = new ProduitService(listePizza);
