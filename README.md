@@ -1,3 +1,4 @@
+
 Pizza Recipes Mobile App
 Description
 This Android application allows users to discover various pizza recipes. It presents a list of pizzas and offers complete details for each recipe.
@@ -12,7 +13,7 @@ Android Studio 4.0+
 Android SDK (API 21+)
 JDK 8+
 Installation
-Clone the repository: git clone https://github.com/CHOUAY15/Pizza-mobile.git
+Clone the repository: git clone https:https://github.com/AdamBessam/APP-PIZZA-TP
 Open the project in Android Studio.
 Sync the project with Gradle files.
 Run the application on an emulator or physical device.
@@ -48,7 +49,5 @@ Detail Screen
 
 Create PizzaDetailActivity
 Implement recipe detail display
-Video Demonstration
-
 https://github.com/user-attachments/assets/97c53d58-1ec6-47cc-9227-4f3f3e5a7165
 
